@@ -19,6 +19,7 @@ html{
     --blue: #2477C5;
     --grey: #ECEEF1;
     --grey2: #9B9DA1;
+    --grey-darker: #6A6A6A;
     --red: #E54B43;
     --orange: #E8853A;
     --green: #62B823;
@@ -36,7 +37,7 @@ main{
     display: grid;
     /* place-items: center; */
     justify-items: center;
-    height: 90vh;
+    height: 85vh;
     grid-template-rows: 50px 50px 1fr;
     /* margin: 0 auto; */
 }
@@ -53,6 +54,13 @@ main{
     font-size: 2rem;
 }
 
+.design{
+    color: var(--blue);
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 form{
     border: 1px solid var(--grey2);
     background-color: white;
@@ -63,17 +71,69 @@ form{
 fieldset{
     display: grid;
     border: none;
+    text-align: center;
 }
+
+fieldset>h1{
+    color: var(--grey-darker);
+    text-align: center;
+}
+
+fieldset > p , a{
+    font-size: 1.25rem;
+    color: var(--grey-darker);
+}
+
 fieldset>div{
     display: grid;
     row-gap: 10px;
+    text-align: left;
+    margin-top: 30px;
+    color: var(--grey-darker);
+}
+
+fieldset>div>p{
+    margin-top: -8px;
 }
 
 fieldset > div > input {
     border: 1px solid var(--grey2);
-    height: 2rem;
+    height: 3rem;
+    border-radius: 4px;
 }
 
 fieldset > div > label{
     font-size: 1.4rem;
+}
+
+#button {
+    margin-top: 50px;
+    padding: 10px 95px !important;
+    font-size: 18px !important;
+    background-color: var(--blue);
+    text-shadow: 1px 1px var(--blue);
+    color: #ffffff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid var(--blue);
+    cursor: pointer;
+    transition: .5s;
+}
+
+#button:hover{
+    color: var(--blue);
+    background-color: #fff;
+}
+
+#privacy{
+    text-align: center;
+    line-height: 1.8;
+    padding: 20px;
+}
+
+#captcha{
+    background: var(--grey);
+    margin: -20px;
+    padding: 20px;
 }
