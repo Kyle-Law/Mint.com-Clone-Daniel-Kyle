@@ -55,4 +55,25 @@ main{
 
 form{
     border: 1px solid var(--grey2);
+    background-color: white;
+    width: 350px;
+    padding: 20px;
+}
+
+fieldset{
+    display: grid;
+    border: none;
+}
+fieldset>div{
+    display: grid;
+    row-gap: 10px;
+}
+
+fieldset > div > input {
+    border: 1px solid var(--grey2);
+    height: 2rem;
+}
+
+fieldset > div > label{
+    font-size: 1.4rem;
 }
