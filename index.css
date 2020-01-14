@@ -1,0 +1,58 @@
+/* Default Settings */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+}
+
+html{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Start */
+:root{
+    --blue: #2477C5;
+    --grey: #ECEEF1;
+    --grey2: #9B9DA1;
+    --red: #E54B43;
+    --orange: #E8853A;
+    --green: #62B823;
+}
+
+body{
+    background-color: var(--grey);
+}
+
+header{
+    color: var(--blue);
+}
+
+main{
+    display: grid;
+    /* place-items: center; */
+    justify-items: center;
+    height: 90vh;
+    grid-template-rows: 50px 50px 1fr;
+    /* margin: 0 auto; */
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: repeat(6,max-content);
+    column-gap: 5px;
+    align-items: center;
+}
+
+.icons > p{
+    color: var(--grey2);
+    font-size: 2rem;
+}
+
+form{
+    border: 1px solid var(--grey2);
+}
