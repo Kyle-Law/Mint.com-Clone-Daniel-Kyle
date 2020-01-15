@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Kyle-Law/Mint.com-Clone-Daniel-Kyle/575a7652ab940449a19ab960fa7dd55884f8a27f/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Kyle-Law/Mint.com-Clone-Daniel-Kyle/f4500010cfcff239cf9765d8827239b74a7e03fc/index.html)
 
 
 ## Authors
