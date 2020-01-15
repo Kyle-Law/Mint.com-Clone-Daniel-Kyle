@@ -34,7 +34,7 @@ body {
 /* Header Section */
 header {
   display: grid;
-  grid:  repeat(2, 15px) / 170px 100px;
+  grid: repeat(2, 15px) / 170px 100px;
   justify-content: end;
   grid-auto-flow: column;
 }
@@ -83,8 +83,8 @@ main {
   align-items: center;
 }
 
-fieldset > p, 
- a {
+fieldset > p,
+a {
   font-size: 1.25rem;
   color: var(--grey-darker);
 }
@@ -153,7 +153,7 @@ fieldset > div > label {
   -webkit-border-radius: 5px;
   border: 1px solid var(--blue);
   cursor: pointer;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 #button:hover {
