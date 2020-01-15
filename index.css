@@ -52,7 +52,6 @@ header{
     grid-row: span 2;
     color: white;
     background-color: var(--blue);
-    /* place-items: center; */
     align-items: center;
     justify-items: center;
     border-radius: 4px;
@@ -70,11 +69,9 @@ header{
 /* Form Section */
 main{
     display: grid;
-    /* place-items: center; */
     justify-items: center;
     height: 85vh;
     grid-template-rows: 50px 50px 1fr;
-    /* margin: 0 auto; */
 }
 
 .icons{
@@ -183,11 +180,9 @@ footer{
 }
 
 #footer-links{
-    margin-top: 50px;
+    margin-top: 120px;
     display: grid;
     grid-template-columns: repeat(3,max-content);
     column-gap: 10px;
-    /* text-align: center; */
-    /* margin: 0 auto; */
     justify-content: center;
 }
