@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Clone</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="head" id="head1">Already have an Intuit account?</div>
+        <div class="head" id="head2">I forgot my User ID or Password</div>
+        <div class="head" id="sign-in">
+            <img src="images/lock.svg" alt="lock">
+            <p>Sign In</p>
+        </div>
+    </header>
+    <main> 
+        <img src="images/logo.png" alt="logo">
+        <div class="icons">
+            <img src="images/icon1.png" alt="icon1">
+            <p>mint</p>
+            <img src="images/icon2.png" alt="icon2">
+            <p>quickbooks</p>
+            <img src="images/icon3.png" alt="icon3">
+            <p>turbotax</p>
+        </div>
+        <form>
+            <fieldset>
+                <h1>Create an Intuit account</h1>
+                <p>One account for every Intuit, including Mint.</p>
+                <a class="design" href="#">Learn more</a>
+                <p>Already have an account? <span class="design">Sign In</span></p>
+                <div>
+                    <label>Email address</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div>
+                    <label>Phone (recommended)</label>
+                    <input type="number" name="email" required>
+                    <p>Standard call, messaging or data rates may apply.</p>
+                </div>
+                <div>
+                    <label>Password</label>
+                    <input type="text" name="password" required>
+                </div>
+                
+                <input id="button"  type="submit" name="submit" value="Create Account">
+                <p id="privacy">
+                    By clicking Create account, you agree to our<span class="design"> Terms</span> and have read and acknowledge our <span class="design"> Privacy Statement.</span>
+                </p>
+            </fieldset>
+            <div>
+                <p id="captcha">Invisible reCAPTCHA by Google <span class="design">Privacy Policy</span> and <span class="design">Terms of Use</span></p>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div id="footer-links">
+            <div class="footer-link">Legal</div>
+            <div class="footer-link">Privacy</div>
+            <div class="footer-link">Security</div>
+        </div>
+        <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
+            Terms and conditions, features, support, pricing, and service options subject to change without notice.
+        </p>
+    </footer>
+</body>
+</html>
