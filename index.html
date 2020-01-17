@@ -33,17 +33,17 @@
                 <a class="design" href="#">Learn more</a>
                 <p>Already have an account? <span class="design">Sign In</span></p>
                 <div>
-                    <label>Email address</label>
-                    <input type="email" name="email" required>
+                    <label for="email">Email address</label>
+                    <input id="email" type="email" name="email" required>
                 </div>
                 <div>
-                    <label>Phone (recommended)</label>
-                    <input type="number" name="email" required>
+                    <label for="phone-no">Phone (recommended)</label>
+                    <input id="phone-no" type="tel" name="phone-number" required>
                     <p>Standard call, messaging or data rates may apply.</p>
                 </div>
                 <div>
-                    <label>Password</label>
-                    <input type="text" name="password" required>
+                    <label for="password">Password</label>
+                    <input id="password" type="password" name="password" pattern="[a-zA-Z](\d+)(\W+)" maxlength="32" required>
                 </div>
                 
                 <input id="button"  type="submit" name="submit" value="Create Account">
@@ -58,9 +58,9 @@
     </main>
     <footer>
         <div id="footer-links">
-            <div class="footer-link">Legal</div>
-            <div class="footer-link">Privacy</div>
-            <div class="footer-link">Security</div>
+            <a href="#" class="footer-link">Legal</a>
+            <a href="#" class="footer-link">Privacy</a>
+            <a href="#" class="footer-link">Security</a>
         </div>
         <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
             Terms and conditions, features, support, pricing, and service options subject to change without notice.
